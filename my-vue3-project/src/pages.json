@@ -1,0 +1,98 @@
+{
+	// "easycom": {
+	// 		"autoscan": true
+			
+	// 	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/login/login",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message-list/index",
+			"style": {
+				"navigationBarTitleText": "信息"
+			}
+		},
+		{
+			"path": "pages/message-list/chat-content/index",
+			 "style": {
+			    "navigationStyle": "custom"
+			  }
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/contact/notice",
+			"style": {
+				"navigationBarTitleText": "好友申请"
+			}
+		},
+		{
+			"path": "pages/contact/group-notice",
+			"style": {
+				"navigationBarTitleText": "群聊邀请"
+			}
+		},
+		{
+			"path": "pages/contact/contact-info",
+			"style": {
+				"navigationBarTitleText": "联系人信息"
+			}
+		},
+		{
+			"path": "pages/myInfo/myInfo",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		
+		{
+			"path": "pages/message-list/group-chat-content/index",
+			"style": {
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message-list/group-chat-content/member-list",
+			"style": {
+				"navigationBarTitleText": "群成员"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "牛逼的网页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "信息",
+				"pagePath": "pages/message-list/index",
+				"iconPath": "/src/static/logo.png",
+				"selectedIconPath": "/src/static/logo.png"
+			},
+			{
+				"text": "通讯录",
+				"pagePath": "pages/contact/index",
+				"iconPath": "/src/static/contact.png",
+				"selectedIconPath": "/src/static/contact.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/myInfo/myInfo",
+				"iconPath": "/src/static/my.png",
+				"selectedIconPath": "/src/static/my.png"
+			}
+		]
+	}
+}
