@@ -5,12 +5,16 @@
 	// 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 	
+	// {
+	// 	"path": "pages/login/wxlogin"
+	// },
 		{
 			"path": "pages/login/login",
 			"style": {
 				 "navigationStyle": "custom"
 			}
 		},
+		
 		{
 			"path": "pages/message-list/index",
 			"style": {
@@ -78,20 +82,20 @@
 			{
 				"text": "信息",
 				"pagePath": "pages/message-list/index",
-				"iconPath": "/src/static/logo.png",
-				"selectedIconPath": "/src/static/logo.png"
+				"iconPath": "static/message-outline.png",
+				"selectedIconPath": "static/message-outline.png"
 			},
 			{
 				"text": "通讯录",
 				"pagePath": "pages/contact/index",
-				"iconPath": "/src/static/contact.png",
-				"selectedIconPath": "/src/static/contact.png"
+				"iconPath": "static/account-box-outline.png",
+				"selectedIconPath": "static/account-box-outline.png"
 			},
 			{
 				"text": "我的",
 				"pagePath": "pages/myInfo/myInfo",
-				"iconPath": "/src/static/my.png",
-				"selectedIconPath": "/src/static/my.png"
+				"iconPath": "static/account-outline.png",
+				"selectedIconPath": "static/account-outline.png"
 			}
 		]
 	}

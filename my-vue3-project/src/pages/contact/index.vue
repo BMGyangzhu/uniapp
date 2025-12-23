@@ -208,6 +208,6 @@ onUnload(() => {
   }
 }
 .indexed-list{
-	position: static !important;
+	// position: static !important;
 }
 </style>

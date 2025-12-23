@@ -294,7 +294,8 @@
 </script>
 <style lang="scss" scoped>
 	.uni-indexed-list {
-		position: absolute;
+		// position: absolute;
+		position: static;
 		left: 0;
 		top: 0;
 		right: 0;

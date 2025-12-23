@@ -18,4 +18,12 @@ export const apiGetUserById = (userId: number) => {
   })
 }
 
+export const apiWxLogin = (code: string) => {
+	return request({
+		url: '/login/wx',
+		method: 'POST',
+		data: { code }
+	})
+}
+
 

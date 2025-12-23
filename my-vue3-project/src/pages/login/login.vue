@@ -14,6 +14,7 @@
         class="input"
         v-model="form.password"
         type="password"
+		 password
         placeholder="请输入密码"
         placeholder-class="placeholder"
       />
